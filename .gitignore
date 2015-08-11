@@ -15,6 +15,7 @@ src/main/webapp/dist
 .gradle
 build
 /target/
+/bin/
 
 # Netbeans Ignore
 nbproject
