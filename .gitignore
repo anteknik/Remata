@@ -15,7 +15,7 @@ src/main/webapp/dist
 .gradle
 build
 /target/
-bin
+bin/org/remata/portofolio
 
 # Netbeans Ignore
 nbproject
