@@ -1,0 +1,7 @@
+mvn install:install-file -Dfile=je-7.5.11.jar -DgroupId=com.sleepycat -DartifactId=je -Dversion=7.5.11 -Dpackaging=jar
+
+<dependency>
+	  <groupId>com.sleepycat</groupId>
+	  <artifactId>je</artifactId>
+	  <version>7.5.11</version>
+ </dependency>

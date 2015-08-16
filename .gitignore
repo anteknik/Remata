@@ -1,27 +1,5 @@
-target
-node
-node_modules
-.idea
-*.iml
-.classpath
-.project
 .settings
-.tmp
-.merge_file*
-.sass-cache
-.DS_Store
-.gitattributes
-src/main/webapp/dist
-.gradle
-build
-/target/
-bin/org/remata/portofolio
+.project
+.classpath
+target/
 
-# Netbeans Ignore
-nbproject
-build
-dist
-private
-
-# Maven
-target
