@@ -1,0 +1,25 @@
+<isomsg>
+ <field id="0" value="0800" />
+</isomsg>
+
+<!-- LOG Server-->
+
+<log realm="channel/0:0:0:0:0:0:0:1:49578" at="2020-10-27T13:49:14.642" lifespan="90709ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0800"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="channel/0:0:0:0:0:0:0:1:49578" at="2020-10-27T13:49:14.708" lifespan="3ms">
+  <send>
+    <isomsg>
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0810"/>
+      <field id="37" value="934569"/>
+      <field id="38" value="452594"/>
+      <field id="39" value="00"/>
+    </isomsg>
+  </send>
+</log>
