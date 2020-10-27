@@ -1,27 +1,33 @@
-target
-node
-node_modules
-.idea
-*.iml
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
 .settings
-.tmp
-.merge_file*
-.sass-cache
-.DS_Store
-.gitattributes
-src/main/webapp/dist
-.gradle
-build
-/target/
-bin/org/remata/portofolio
+.springBeans
+.sts4-cache
 
-# Netbeans Ignore
-nbproject
-build
-dist
-private
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
-# Maven
-target
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
