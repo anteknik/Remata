@@ -1,0 +1,59 @@
+test postman/rest client : GET http://localhost:8080/echo
+
+response postman/rest client In: 0810 000001
+
+<!-- LOG Server -->
+
+<log realm="channel/127.0.0.1:49383" at="2020-10-28T08:08:57.517" lifespan="38279ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0800"/>
+      <field id="11" value="000001"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+<log realm="channel/127.0.0.1:49383" at="2020-10-28T08:08:57.549" lifespan="1ms">
+  <send>
+    <isomsg>
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0810"/>
+      <field id="11" value="000001"/>
+      <field id="37" value="174435"/>
+      <field id="38" value="425422"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+
+
+<!-- LOG Client -->
+
+<log realm="client-channel/127.0.0.1:10000" at="2020-10-28T08:08:57.514" lifespa
+n="1ms">
+  <send>
+    <isomsg>
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0800"/>
+      <field id="11" value="000001"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </send>
+</log>
+<log realm="client-channel/127.0.0.1:10000" at="2020-10-28T08:08:57.553" lifespa
+n="38307ms">
+  <receive>
+    <isomsg direction="incoming">
+      <!-- org.jpos.iso.packager.XMLPackager -->
+      <field id="0" value="0810"/>
+      <field id="11" value="000001"/>
+      <field id="37" value="174435"/>
+      <field id="38" value="425422"/>
+      <field id="39" value="00"/>
+      <field id="70" value="301"/>
+    </isomsg>
+  </receive>
+</log>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+
+<channel-adaptor name="clientchannel"
+	class="org.jpos.q2.iso.ChannelAdaptor" logger="Q2">
+	<channel class="org.jpos.iso.channel.XMLChannel"
+		realm="client-channel" logger="Q2"
+		packager="org.jpos.iso.packager.XMLPackager">
+		<property name="host" value="localhost" />
+		<property name="port" value="10000" />
+	</channel>
+	<in>my-send</in>
+	<out>my-receive</out>
+	<reconnect-delay>10000</reconnect-delay>
+</channel-adaptor> 
+

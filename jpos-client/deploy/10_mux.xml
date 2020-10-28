@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+
+<mux class="org.jpos.q2.iso.QMUX" logger="Q2" name="my-mux">
+	<in>my-receive</in>
+	<out>my-send</out>
+	<unhandled>my-unhanled</unhandled>
+</mux> 

@@ -3,10 +3,10 @@ package net.nadisa.anan;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
+//@SpringBootTest
 class JposServerApplicationTests {
 
-	@Test
+	//@Test
 	void contextLoads() {
 	}
 
